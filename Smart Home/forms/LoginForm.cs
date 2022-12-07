@@ -50,9 +50,13 @@ namespace Smart_Home.forms
                 {
                     foreach (var item in dataRow.ItemArray)
                     {
-                        MessageBox.Show(item.ToString());
+                        //MessageBox.Show(item.ToString());
                     }
                 }
+
+                Dashboard dashboard = new Dashboard();
+                dashboard.Show();
+                this.Hide();
             } else
             {
                 this.errorMessage.Visible = true;

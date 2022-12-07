@@ -78,3 +78,7 @@ C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart Home.csproj.CoreC
 C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart Home.csproj.CopyComplete
 C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart Home.exe
 C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart Home.pdb
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.Dashboard.resources
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.ApartementForm.resources
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.ChambreForm.resources
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.SalonMaisonForm.resources
