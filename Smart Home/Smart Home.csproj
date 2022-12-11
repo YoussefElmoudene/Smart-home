@@ -161,6 +161,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Appartement.cs" />
+    <Compile Include="Classes\Chambre.cs" />
+    <Compile Include="Classes\Furniture.cs" />
+    <Compile Include="Classes\User.cs" />
     <Compile Include="Connextion\MyConnextion.cs" />
     <Compile Include="forms\ApartementForm.cs">
       <SubType>UserControl</SubType>
@@ -238,7 +242,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Classes\" />
     <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
