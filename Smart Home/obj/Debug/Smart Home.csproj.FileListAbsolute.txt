@@ -165,3 +165,7 @@ C:\Users\hp\Desktop\Emsi\C#\Smart home\Smart Home\obj\Debug\Smart Home.csproj.Co
 C:\Users\hp\Desktop\Emsi\C#\Smart home\Smart Home\obj\Debug\Smart Home.exe
 C:\Users\hp\Desktop\Emsi\C#\Smart home\Smart Home\obj\Debug\Smart Home.pdb
 >>>>>>> e4531a867a739c7161a89cfda40fe220ec68e35b
+C:\Users\hp\Desktop\Emsi\C#\Smart home\Smart Home\obj\Debug\Smart_Home.forms.ApartementForm.resources
+C:\Users\hp\Desktop\Emsi\C#\Smart home\Smart Home\obj\Debug\Smart_Home.forms.ChambreForm.resources
+C:\Users\hp\Desktop\Emsi\C#\Smart home\Smart Home\obj\Debug\Smart_Home.forms.Dashboard.resources
+C:\Users\hp\Desktop\Emsi\C#\Smart home\Smart Home\obj\Debug\Smart_Home.forms.SalonMaisonForm.resources

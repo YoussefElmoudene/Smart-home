@@ -26,5 +26,10 @@ namespace Smart_Home.forms
         {
             e.Effect = DragDropEffects.All;
         }
+
+        private void ApartementForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -164,6 +164,7 @@
     <Compile Include="Classes\Appartement.cs" />
     <Compile Include="Classes\Chambre.cs" />
     <Compile Include="Classes\Furniture.cs" />
+    <Compile Include="Classes\Objet.cs" />
     <Compile Include="Classes\User.cs" />
     <Compile Include="Connextion\MyConnextion.cs" />
     <Compile Include="forms\ApartementForm.cs">
