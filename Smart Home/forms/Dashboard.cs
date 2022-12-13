@@ -74,12 +74,7 @@ namespace Smart_Home.forms
             }
         }
 
-        private void guna2ImageButton3_MouseDown(object sender, MouseEventArgs e)
-        {
-            Guna2ImageButton g1 = (Guna2ImageButton)sender;
-            g1.Select();
-            g1.DoDragDrop(g1, DragDropEffects.Copy);
-        }
+    
 
         private void guna2ImageButton3_Click(object sender, EventArgs e)
         {
@@ -89,6 +84,13 @@ namespace Smart_Home.forms
         private void apartementForm1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2ImageButton3_MouseDown_1(object sender, MouseEventArgs e)
+        {
+            Guna2ImageButton g1 = (Guna2ImageButton)sender;
+            g1.Select();
+            g1.DoDragDrop(g1, DragDropEffects.Copy);
         }
     }
 }
