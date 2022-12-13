@@ -57,7 +57,7 @@ namespace Smart_Home.forms
         {
             Guna2ImageButton g = (Guna2ImageButton)sender;
             g.Select();
-            g.DoDragDrop(g,DragDropEffects.Copy);
+            g.DoDragDrop(g.Name,DragDropEffects.Copy);
         }
 
       
@@ -74,23 +74,109 @@ namespace Smart_Home.forms
             }
         }
 
-    
-
-        private void guna2ImageButton3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void apartementForm1_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void guna2ImageButton3_MouseDown_1(object sender, MouseEventArgs e)
         {
             Guna2ImageButton g1 = (Guna2ImageButton)sender;
             g1.Select();
-            g1.DoDragDrop(g1, DragDropEffects.Copy);
+            g1.DoDragDrop(g1.Name, DragDropEffects.Copy);
+        }
+
+        private void guna2ImageButton4_MouseDown(object sender, MouseEventArgs e)
+        {
+            Guna2ImageButton g1 = (Guna2ImageButton)sender;
+            g1.Select();
+            g1.DoDragDrop(g1.Name, DragDropEffects.Copy);
+        }
+
+        private void guna2ImageButton4_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Bitmap))
+            {
+                e.Effect = DragDropEffects.Copy;
+            }
+            else
+            {
+                e.Effect = DragDropEffects.None;
+            }
+        }
+
+        private void guna2ImageButton5_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Bitmap))
+            {
+                e.Effect = DragDropEffects.Copy;
+            }
+            else
+            {
+                e.Effect = DragDropEffects.None;
+            }
+        }
+
+        private void guna2ImageButton5_MouseDown(object sender, MouseEventArgs e)
+        {
+            Guna2ImageButton g1 = (Guna2ImageButton)sender;
+            g1.Select();
+            g1.DoDragDrop(g1.Name, DragDropEffects.Copy);
+        }
+
+        private void guna2ImageButton6_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Bitmap))
+            {
+                e.Effect = DragDropEffects.Copy;
+            }
+            else
+            {
+                e.Effect = DragDropEffects.None;
+            }
+        }
+
+        private void guna2ImageButton6_MouseDown(object sender, MouseEventArgs e)
+        {
+
+            Guna2ImageButton g1 = (Guna2ImageButton)sender;
+            g1.Select();
+            g1.DoDragDrop(g1.Name, DragDropEffects.Copy);
+        }   
+
+        private void guna2ImageButton7_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Bitmap))
+            {
+                e.Effect = DragDropEffects.Copy;
+            }
+            else
+            {
+                e.Effect = DragDropEffects.None;
+            }
+        }
+
+        private void guna2ImageButton7_MouseDown(object sender, MouseEventArgs e)
+        {
+            Guna2ImageButton g1 = (Guna2ImageButton)sender;
+            g1.Select();
+            g1.DoDragDrop(g1.Name, DragDropEffects.Copy);
+        }
+
+        private void guna2ImageButton8_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Bitmap))
+            {
+                e.Effect = DragDropEffects.Copy;
+            }
+            else
+            {
+                e.Effect = DragDropEffects.None;
+            }
+        }
+
+        private void guna2ImageButton8_MouseDown(object sender, MouseEventArgs e)
+        {
+            Guna2ImageButton g1 = (Guna2ImageButton)sender;
+            g1.Select();
+            g1.DoDragDrop(g1.Name, DragDropEffects.Copy);
         }
     }
-}
+    }
+
