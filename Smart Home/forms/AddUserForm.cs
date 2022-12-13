@@ -51,7 +51,7 @@ namespace Smart_Home.forms
             cmd.Parameters.AddWithValue("@password", user.Password);
             cmd.Parameters.AddWithValue("@age", user.Age);
             cmd.Parameters.AddWithValue("@role", user.Role);
-
+            cmd.ExecuteNonQuery();
 
             cmd.ExecuteNonQuery();
         }
