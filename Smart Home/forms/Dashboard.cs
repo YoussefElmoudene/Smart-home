@@ -1,4 +1,5 @@
 ﻿using Guna.UI2.WinForms;
+using Smart_Home.Classes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,10 +14,23 @@ namespace Smart_Home.forms
 {
     public partial class Dashboard : Form
     {
-        bool mouseDown;
-        public Dashboard()
+        public User user = new User();
+        public Dashboard(User user)
         {
+            this.user = user;
             InitializeComponent();
+            this.onInit();
+        }
+
+        private void onInit()
+        {
+            adminLabel.Text = user.Fullname;
+            if(this.user.Role.Equals("TECHNICIEN"))
+            {
+                AddApartement.Visible = false;
+                AddChambre.Visible = false;
+                AddUser.Visible = true;
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -176,6 +190,22 @@ namespace Smart_Home.forms
             Guna2ImageButton g1 = (Guna2ImageButton)sender;
             g1.Select();
             g1.DoDragDrop(g1.Name, DragDropEffects.Copy);
+        }
+
+        private void AddUser_Click(object sender, EventArgs e)
+        {
+            AddUserForm addUserForm = new AddUserForm();
+            addUserForm.Show();
+        }
+
+        private void AddChambre_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddApartement_Click(object sender, EventArgs e)
+        {
+
         }
     }
     }

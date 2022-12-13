@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Smart_Home.Classes
 {
-    internal class User
+    public class User
     {
         private int id;
         private string fullname;
@@ -25,6 +25,15 @@ namespace Smart_Home.Classes
             this.Password = password;
             this.Age = age;
             this.Role = role;
+        }
+
+        public User()
+        {
+        }
+
+        public override string ToString()
+        {
+            return "Id: " + id + ", FullName: " + fullname + ",  Tele: " + telephone + ",  Username: " + username + ", pass: " + password + ", age: " + age + ", Role: " + role;
         }
 
         public int Id { get => id; set => id = value; }

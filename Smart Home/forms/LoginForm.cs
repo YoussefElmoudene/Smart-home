@@ -1,4 +1,5 @@
 ﻿using MySqlConnector;
+using Smart_Home.Classes;
 using Smart_Home.Connextion;
 using System;
 using System.Collections.Generic;
@@ -43,6 +44,7 @@ namespace Smart_Home.forms
             MySqlCommand cmd = connextion.getConnextion().CreateCommand();
             cmd.CommandText = "SELECT *  FROM user WHERE username='" + username + "' AND password='" + password + "';";
             MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+            List<string> data = new List<string>();
             da.Fill(dt);
             if (dt.Rows.Count > 0)
             {
@@ -50,11 +52,13 @@ namespace Smart_Home.forms
                 {
                     foreach (var item in dataRow.ItemArray)
                     {
-                        //MessageBox.Show(item.ToString());
+                        data.Add(item.ToString());
                     }
                 }
-
-                Dashboard dashboard = new Dashboard();
+                
+                User user = new User(Convert.ToInt32(data[0]), data[1], data[2], data[3], data[4], Convert.ToInt32(data[5]), data[6]);
+               
+                Dashboard dashboard = new Dashboard(user);
                 dashboard.Show();
                 this.Hide();
             } else
