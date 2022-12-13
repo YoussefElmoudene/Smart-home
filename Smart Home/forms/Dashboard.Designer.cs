@@ -30,15 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.AddChambre = new Guna.UI2.WinForms.Guna2Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.AddApartement = new Guna.UI2.WinForms.Guna2Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.AddUser = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.chambreForm2 = new Smart_Home.forms.ChambreForm();
             this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.LAMB = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -51,10 +54,8 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.adminLabel = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.AddUser = new Guna.UI2.WinForms.Guna2Button();
-            this.chambreForm2 = new Smart_Home.forms.ChambreForm();
             this.guna2Panel1.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -66,7 +67,6 @@
             this.flowLayoutPanel1.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
-            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -79,21 +79,21 @@
             this.guna2Panel1.Controls.Add(this.guna2PictureBox2);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1381, 74);
+            this.guna2Panel1.Size = new System.Drawing.Size(1036, 60);
             this.guna2Panel1.TabIndex = 0;
             // 
-            // panel4
+            // panel6
             // 
-            this.panel4.Controls.Add(this.AddApartement);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(749, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel4.Name = "panel4";
-            this.panel4.Padding = new System.Windows.Forms.Padding(11, 10, 11, 10);
-            this.panel4.Size = new System.Drawing.Size(325, 74);
-            this.panel4.TabIndex = 3;
+            this.panel6.Controls.Add(this.AddChambre);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel6.Location = new System.Drawing.Point(318, 0);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel6.Name = "panel6";
+            this.panel6.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.panel6.Size = new System.Drawing.Size(244, 60);
+            this.panel6.TabIndex = 4;
             // 
             // AddChambre
             // 
@@ -105,25 +105,25 @@
             this.AddChambre.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.AddChambre.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.AddChambre.ForeColor = System.Drawing.Color.White;
-            this.AddChambre.Location = new System.Drawing.Point(103, 12);
-            this.AddChambre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.AddChambre.Location = new System.Drawing.Point(77, 10);
+            this.AddChambre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.AddChambre.Name = "AddChambre";
-            this.AddChambre.Size = new System.Drawing.Size(208, 46);
+            this.AddChambre.Size = new System.Drawing.Size(156, 37);
             this.AddChambre.TabIndex = 1;
             this.AddChambre.Text = "Add chambre";
             this.AddChambre.Visible = false;
             this.AddChambre.Click += new System.EventHandler(this.AddChambre_Click);
             // 
-            // panel1
+            // panel4
             // 
-            this.panel1.Controls.Add(this.AddUser);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(1074, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Padding = new System.Windows.Forms.Padding(11, 10, 11, 10);
-            this.panel1.Size = new System.Drawing.Size(227, 74);
-            this.panel1.TabIndex = 2;
+            this.panel4.Controls.Add(this.AddApartement);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel4.Location = new System.Drawing.Point(562, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Name = "panel4";
+            this.panel4.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.panel4.Size = new System.Drawing.Size(244, 60);
+            this.panel4.TabIndex = 3;
             // 
             // AddApartement
             // 
@@ -135,14 +135,44 @@
             this.AddApartement.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.AddApartement.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.AddApartement.ForeColor = System.Drawing.Color.White;
-            this.AddApartement.Location = new System.Drawing.Point(90, 12);
-            this.AddApartement.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.AddApartement.Location = new System.Drawing.Point(68, 10);
+            this.AddApartement.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.AddApartement.Name = "AddApartement";
-            this.AddApartement.Size = new System.Drawing.Size(208, 46);
+            this.AddApartement.Size = new System.Drawing.Size(156, 37);
             this.AddApartement.TabIndex = 0;
             this.AddApartement.Text = "New apartment";
             this.AddApartement.Visible = false;
             this.AddApartement.Click += new System.EventHandler(this.AddApartement_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.AddUser);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel1.Location = new System.Drawing.Point(806, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Name = "panel1";
+            this.panel1.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.panel1.Size = new System.Drawing.Size(170, 60);
+            this.panel1.TabIndex = 2;
+            // 
+            // AddUser
+            // 
+            this.AddUser.AllowDrop = true;
+            this.AddUser.BorderRadius = 5;
+            this.AddUser.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.AddUser.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.AddUser.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.AddUser.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.AddUser.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.AddUser.ForeColor = System.Drawing.Color.White;
+            this.AddUser.Location = new System.Drawing.Point(10, 10);
+            this.AddUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AddUser.Name = "AddUser";
+            this.AddUser.Size = new System.Drawing.Size(156, 37);
+            this.AddUser.TabIndex = 1;
+            this.AddUser.Text = "Add user";
+            this.AddUser.Visible = false;
+            this.AddUser.Click += new System.EventHandler(this.AddUser_Click);
             // 
             // guna2PictureBox1
             // 
@@ -155,8 +185,8 @@
             this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
             this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Padding = new System.Windows.Forms.Padding(7, 0, 0, 0);
-            this.guna2PictureBox1.Size = new System.Drawing.Size(79, 74);
+            this.guna2PictureBox1.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(59, 60);
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
             // 
@@ -167,10 +197,10 @@
             this.guna2PictureBox2.Dock = System.Windows.Forms.DockStyle.Right;
             this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(1301, 0);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(976, 0);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(80, 74);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(60, 60);
             this.guna2PictureBox2.TabIndex = 1;
             this.guna2PictureBox2.TabStop = false;
             this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
@@ -181,10 +211,10 @@
             this.guna2Panel3.Controls.Add(this.panel3);
             this.guna2Panel3.Controls.Add(this.panel2);
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel3.Location = new System.Drawing.Point(0, 74);
-            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Panel3.Location = new System.Drawing.Point(0, 60);
+            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1381, 714);
+            this.guna2Panel3.Size = new System.Drawing.Size(1036, 580);
             this.guna2Panel3.TabIndex = 2;
             // 
             // panel3
@@ -193,10 +223,10 @@
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel3.Controls.Add(this.flowLayoutPanel2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(267, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel3.Location = new System.Drawing.Point(200, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1114, 714);
+            this.panel3.Size = new System.Drawing.Size(836, 580);
             this.panel3.TabIndex = 3;
             // 
             // flowLayoutPanel2
@@ -206,11 +236,22 @@
             this.flowLayoutPanel2.Controls.Add(this.chambreForm2);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Padding = new System.Windows.Forms.Padding(11, 10, 11, 10);
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(1114, 714);
+            this.flowLayoutPanel2.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(836, 580);
             this.flowLayoutPanel2.TabIndex = 0;
+            // 
+            // chambreForm2
+            // 
+            this.chambreForm2.AllowDrop = true;
+            this.chambreForm2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("chambreForm2.BackgroundImage")));
+            this.chambreForm2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.chambreForm2.Location = new System.Drawing.Point(16, 16);
+            this.chambreForm2.Margin = new System.Windows.Forms.Padding(8, 8, 30, 8);
+            this.chambreForm2.Name = "chambreForm2";
+            this.chambreForm2.Size = new System.Drawing.Size(484, 434);
+            this.chambreForm2.TabIndex = 7;
             // 
             // panel2
             // 
@@ -218,9 +259,9 @@
             this.panel2.Controls.Add(this.panel5);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(267, 714);
+            this.panel2.Size = new System.Drawing.Size(200, 580);
             this.panel2.TabIndex = 2;
             // 
             // flowLayoutPanel1
@@ -234,11 +275,11 @@
             this.flowLayoutPanel1.Controls.Add(this.DOOR);
             this.flowLayoutPanel1.Controls.Add(this.TV);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 121);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 98);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(3, 39, 0, 0);
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(267, 593);
+            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(2, 32, 0, 0);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 482);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // LAMB
@@ -250,11 +291,11 @@
             this.LAMB.Image = ((System.Drawing.Image)(resources.GetObject("LAMB.Image")));
             this.LAMB.ImageOffset = new System.Drawing.Point(0, 0);
             this.LAMB.ImageRotate = 0F;
-            this.LAMB.Location = new System.Drawing.Point(6, 41);
-            this.LAMB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.LAMB.Location = new System.Drawing.Point(4, 34);
+            this.LAMB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.LAMB.Name = "LAMB";
             this.LAMB.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.LAMB.Size = new System.Drawing.Size(107, 130);
+            this.LAMB.Size = new System.Drawing.Size(80, 106);
             this.LAMB.TabIndex = 12;
             this.LAMB.DragEnter += new System.Windows.Forms.DragEventHandler(this.guna2ImageButton1_DragEnter);
             this.LAMB.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton1_MouseDown);
@@ -268,11 +309,10 @@
             this.WINDOW.Image = ((System.Drawing.Image)(resources.GetObject("WINDOW.Image")));
             this.WINDOW.ImageOffset = new System.Drawing.Point(0, 0);
             this.WINDOW.ImageRotate = 0F;
-            this.WINDOW.Location = new System.Drawing.Point(120, 43);
-            this.WINDOW.Margin = new System.Windows.Forms.Padding(4);
+            this.WINDOW.Location = new System.Drawing.Point(89, 35);
             this.WINDOW.Name = "WINDOW";
             this.WINDOW.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.WINDOW.Size = new System.Drawing.Size(123, 129);
+            this.WINDOW.Size = new System.Drawing.Size(92, 105);
             this.WINDOW.TabIndex = 13;
             this.WINDOW.DragEnter += new System.Windows.Forms.DragEventHandler(this.guna2ImageButton3_DragEnter);
             this.WINDOW.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton3_MouseDown_1);
@@ -286,11 +326,10 @@
             this.WASHING_MACHINE.Image = ((System.Drawing.Image)(resources.GetObject("WASHING_MACHINE.Image")));
             this.WASHING_MACHINE.ImageOffset = new System.Drawing.Point(0, 0);
             this.WASHING_MACHINE.ImageRotate = 0F;
-            this.WASHING_MACHINE.Location = new System.Drawing.Point(7, 180);
-            this.WASHING_MACHINE.Margin = new System.Windows.Forms.Padding(4);
+            this.WASHING_MACHINE.Location = new System.Drawing.Point(5, 146);
             this.WASHING_MACHINE.Name = "WASHING_MACHINE";
             this.WASHING_MACHINE.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.WASHING_MACHINE.Size = new System.Drawing.Size(105, 129);
+            this.WASHING_MACHINE.Size = new System.Drawing.Size(79, 105);
             this.WASHING_MACHINE.TabIndex = 14;
             this.WASHING_MACHINE.DragEnter += new System.Windows.Forms.DragEventHandler(this.guna2ImageButton4_DragEnter);
             this.WASHING_MACHINE.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton4_MouseDown);
@@ -304,11 +343,10 @@
             this.REFRIGERATOR.Image = ((System.Drawing.Image)(resources.GetObject("REFRIGERATOR.Image")));
             this.REFRIGERATOR.ImageOffset = new System.Drawing.Point(0, 0);
             this.REFRIGERATOR.ImageRotate = 0F;
-            this.REFRIGERATOR.Location = new System.Drawing.Point(120, 180);
-            this.REFRIGERATOR.Margin = new System.Windows.Forms.Padding(4);
+            this.REFRIGERATOR.Location = new System.Drawing.Point(90, 146);
             this.REFRIGERATOR.Name = "REFRIGERATOR";
             this.REFRIGERATOR.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.REFRIGERATOR.Size = new System.Drawing.Size(121, 129);
+            this.REFRIGERATOR.Size = new System.Drawing.Size(91, 105);
             this.REFRIGERATOR.TabIndex = 15;
             this.REFRIGERATOR.DragEnter += new System.Windows.Forms.DragEventHandler(this.guna2ImageButton5_DragEnter);
             this.REFRIGERATOR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton5_MouseDown);
@@ -322,11 +360,10 @@
             this.AC.Image = ((System.Drawing.Image)(resources.GetObject("AC.Image")));
             this.AC.ImageOffset = new System.Drawing.Point(0, 0);
             this.AC.ImageRotate = 0F;
-            this.AC.Location = new System.Drawing.Point(7, 317);
-            this.AC.Margin = new System.Windows.Forms.Padding(4);
+            this.AC.Location = new System.Drawing.Point(5, 257);
             this.AC.Name = "AC";
             this.AC.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.AC.Size = new System.Drawing.Size(105, 121);
+            this.AC.Size = new System.Drawing.Size(79, 98);
             this.AC.TabIndex = 16;
             this.AC.DragEnter += new System.Windows.Forms.DragEventHandler(this.guna2ImageButton6_DragEnter);
             this.AC.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton6_MouseDown);
@@ -340,11 +377,10 @@
             this.DOOR.Image = ((System.Drawing.Image)(resources.GetObject("DOOR.Image")));
             this.DOOR.ImageOffset = new System.Drawing.Point(0, 0);
             this.DOOR.ImageRotate = 0F;
-            this.DOOR.Location = new System.Drawing.Point(120, 317);
-            this.DOOR.Margin = new System.Windows.Forms.Padding(4);
+            this.DOOR.Location = new System.Drawing.Point(90, 257);
             this.DOOR.Name = "DOOR";
             this.DOOR.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.DOOR.Size = new System.Drawing.Size(121, 121);
+            this.DOOR.Size = new System.Drawing.Size(91, 98);
             this.DOOR.TabIndex = 17;
             this.DOOR.DragEnter += new System.Windows.Forms.DragEventHandler(this.guna2ImageButton7_DragEnter);
             this.DOOR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton7_MouseDown);
@@ -358,11 +394,10 @@
             this.TV.Image = ((System.Drawing.Image)(resources.GetObject("TV.Image")));
             this.TV.ImageOffset = new System.Drawing.Point(0, 0);
             this.TV.ImageRotate = 0F;
-            this.TV.Location = new System.Drawing.Point(7, 446);
-            this.TV.Margin = new System.Windows.Forms.Padding(4);
+            this.TV.Location = new System.Drawing.Point(5, 361);
             this.TV.Name = "TV";
             this.TV.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.TV.Size = new System.Drawing.Size(105, 123);
+            this.TV.Size = new System.Drawing.Size(79, 100);
             this.TV.TabIndex = 18;
             this.TV.DragEnter += new System.Windows.Forms.DragEventHandler(this.guna2ImageButton8_DragEnter);
             this.TV.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton8_MouseDown);
@@ -373,10 +408,10 @@
             this.panel5.Controls.Add(this.adminLabel);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Padding = new System.Windows.Forms.Padding(7, 5, 5, 5);
-            this.panel5.Size = new System.Drawing.Size(267, 121);
+            this.panel5.Padding = new System.Windows.Forms.Padding(5, 4, 4, 4);
+            this.panel5.Size = new System.Drawing.Size(200, 98);
             this.panel5.TabIndex = 0;
             // 
             // guna2CirclePictureBox1
@@ -384,11 +419,11 @@
             this.guna2CirclePictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(7, 5);
-            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(5, 4);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(95, 92);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(71, 74);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox1.TabIndex = 3;
             this.guna2CirclePictureBox1.TabStop = false;
@@ -398,68 +433,29 @@
             this.adminLabel.AutoSize = true;
             this.adminLabel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.adminLabel.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.adminLabel.Location = new System.Drawing.Point(7, 97);
+            this.adminLabel.Location = new System.Drawing.Point(5, 78);
+            this.adminLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.adminLabel.Name = "adminLabel";
-            this.adminLabel.Size = new System.Drawing.Size(171, 19);
+            this.adminLabel.Size = new System.Drawing.Size(131, 16);
             this.adminLabel.TabIndex = 4;
             this.adminLabel.Text = "Youssef Elmoudene";
             // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.AddChambre);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel6.Location = new System.Drawing.Point(424, 0);
-            this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel6.Name = "panel6";
-            this.panel6.Padding = new System.Windows.Forms.Padding(11, 10, 11, 10);
-            this.panel6.Size = new System.Drawing.Size(325, 74);
-            this.panel6.TabIndex = 4;
-            // 
-            // AddUser
-            // 
-            this.AddUser.AllowDrop = true;
-            this.AddUser.BorderRadius = 5;
-            this.AddUser.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.AddUser.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.AddUser.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.AddUser.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.AddUser.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.AddUser.ForeColor = System.Drawing.Color.White;
-            this.AddUser.Location = new System.Drawing.Point(13, 12);
-            this.AddUser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.AddUser.Name = "AddUser";
-            this.AddUser.Size = new System.Drawing.Size(208, 46);
-            this.AddUser.TabIndex = 1;
-            this.AddUser.Text = "Add user";
-            this.AddUser.Visible = false;
-            this.AddUser.Click += new System.EventHandler(this.AddUser_Click);
-            // 
-            // chambreForm2
-            // 
-            this.chambreForm2.AllowDrop = true;
-            this.chambreForm2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("chambreForm2.BackgroundImage")));
-            this.chambreForm2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.chambreForm2.Location = new System.Drawing.Point(22, 20);
-            this.chambreForm2.Margin = new System.Windows.Forms.Padding(11, 10, 40, 10);
-            this.chambreForm2.Name = "chambreForm2";
-            this.chambreForm2.Size = new System.Drawing.Size(645, 534);
-            this.chambreForm2.TabIndex = 7;
-            // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.ClientSize = new System.Drawing.Size(1381, 788);
+            this.ClientSize = new System.Drawing.Size(1036, 640);
             this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Dashboard";
             this.Text = "Dashboard";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.guna2Panel1.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
@@ -473,7 +469,6 @@
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
-            this.panel6.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
