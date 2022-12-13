@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,8 @@ namespace Smart_Home.forms
 {
     public partial class ChambreForm : UserControl
     {
+        public static Guna2ImageButton Guna2ImageButton { get; private set; }
+
         public ChambreForm()
         {
             InitializeComponent();
@@ -19,7 +22,7 @@ namespace Smart_Home.forms
 
         private void ChambreForm_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void ChambreForm_DragEnter(object sender, DragEventArgs e)
@@ -29,7 +32,10 @@ namespace Smart_Home.forms
 
         private void ChambreForm_DragDrop(object sender, DragEventArgs e)
         {
-            MessageBox.Show("DROPPED");
+            //Guna2ImageButton getPicture = (Guna2ImageButton)e.Data.GetData(DataFormats.Text);
+           // ChambreForm.Guna2ImageButton = getPicture;
+            MessageBox.Show(e.Data.GetData(DataFormats.Text).ToString()) ;
+
 
         }
     }

@@ -39,22 +39,18 @@
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton3 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton4 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton5 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton6 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton7 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton8 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.LAMB = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.WINDOW = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.WASHING_MACHINE = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.REFRIGERATOR = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.AC = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.DOOR = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.TV = new Guna.UI2.WinForms.Guna2ImageButton();
             this.panel5 = new System.Windows.Forms.Panel();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.adminLabel = new System.Windows.Forms.Label();
-            this.apartementForm1 = new Smart_Home.forms.ApartementForm();
-            this.salonMaisonForm1 = new Smart_Home.forms.SalonMaisonForm();
-            this.chambreForm1 = new Smart_Home.forms.ChambreForm();
             this.chambreForm2 = new Smart_Home.forms.ChambreForm();
             this.guna2Panel1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -207,11 +203,7 @@
             // 
             this.flowLayoutPanel2.AutoScroll = true;
             this.flowLayoutPanel2.AutoSize = true;
-            this.flowLayoutPanel2.Controls.Add(this.apartementForm1);
-            this.flowLayoutPanel2.Controls.Add(this.salonMaisonForm1);
-            this.flowLayoutPanel2.Controls.Add(this.chambreForm1);
             this.flowLayoutPanel2.Controls.Add(this.chambreForm2);
-            this.flowLayoutPanel2.Controls.Add(this.guna2ImageButton2);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
@@ -219,19 +211,6 @@
             this.flowLayoutPanel2.Padding = new System.Windows.Forms.Padding(8);
             this.flowLayoutPanel2.Size = new System.Drawing.Size(836, 580);
             this.flowLayoutPanel2.TabIndex = 0;
-            // 
-            // guna2ImageButton2
-            // 
-            this.guna2ImageButton2.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton2.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton2.Image")));
-            this.guna2ImageButton2.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton2.ImageRotate = 0F;
-            this.guna2ImageButton2.Location = new System.Drawing.Point(533, 1361);
-            this.guna2ImageButton2.Name = "guna2ImageButton2";
-            this.guna2ImageButton2.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton2.Size = new System.Drawing.Size(64, 54);
-            this.guna2ImageButton2.TabIndex = 8;
             // 
             // panel2
             // 
@@ -247,13 +226,13 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel1.Controls.Add(this.guna2ImageButton1);
-            this.flowLayoutPanel1.Controls.Add(this.guna2ImageButton3);
-            this.flowLayoutPanel1.Controls.Add(this.guna2ImageButton4);
-            this.flowLayoutPanel1.Controls.Add(this.guna2ImageButton5);
-            this.flowLayoutPanel1.Controls.Add(this.guna2ImageButton6);
-            this.flowLayoutPanel1.Controls.Add(this.guna2ImageButton7);
-            this.flowLayoutPanel1.Controls.Add(this.guna2ImageButton8);
+            this.flowLayoutPanel1.Controls.Add(this.LAMB);
+            this.flowLayoutPanel1.Controls.Add(this.WINDOW);
+            this.flowLayoutPanel1.Controls.Add(this.WASHING_MACHINE);
+            this.flowLayoutPanel1.Controls.Add(this.REFRIGERATOR);
+            this.flowLayoutPanel1.Controls.Add(this.AC);
+            this.flowLayoutPanel1.Controls.Add(this.DOOR);
+            this.flowLayoutPanel1.Controls.Add(this.TV);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 98);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
@@ -262,110 +241,125 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 482);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
-            // guna2ImageButton1
+            // LAMB
             // 
-            this.guna2ImageButton1.AllowDrop = true;
-            this.guna2ImageButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton1.Image")));
-            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton1.ImageRotate = 0F;
-            this.guna2ImageButton1.Location = new System.Drawing.Point(4, 34);
-            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(80, 106);
-            this.guna2ImageButton1.TabIndex = 12;
-            this.guna2ImageButton1.DragEnter += new System.Windows.Forms.DragEventHandler(this.guna2ImageButton1_DragEnter);
-            this.guna2ImageButton1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton1_MouseDown);
+            this.LAMB.AllowDrop = true;
+            this.LAMB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.LAMB.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.LAMB.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.LAMB.Image = ((System.Drawing.Image)(resources.GetObject("LAMB.Image")));
+            this.LAMB.ImageOffset = new System.Drawing.Point(0, 0);
+            this.LAMB.ImageRotate = 0F;
+            this.LAMB.Location = new System.Drawing.Point(4, 34);
+            this.LAMB.Margin = new System.Windows.Forms.Padding(2);
+            this.LAMB.Name = "LAMB";
+            this.LAMB.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.LAMB.Size = new System.Drawing.Size(80, 106);
+            this.LAMB.TabIndex = 12;
+            this.LAMB.DragEnter += new System.Windows.Forms.DragEventHandler(this.guna2ImageButton1_DragEnter);
+            this.LAMB.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton1_MouseDown);
             // 
-            // guna2ImageButton3
+            // WINDOW
             // 
-            this.guna2ImageButton3.AllowDrop = true;
-            this.guna2ImageButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.guna2ImageButton3.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton3.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton3.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton3.Image")));
-            this.guna2ImageButton3.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton3.ImageRotate = 0F;
-            this.guna2ImageButton3.Location = new System.Drawing.Point(89, 35);
-            this.guna2ImageButton3.Name = "guna2ImageButton3";
-            this.guna2ImageButton3.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton3.Size = new System.Drawing.Size(92, 105);
-            this.guna2ImageButton3.TabIndex = 13;
-            this.guna2ImageButton3.Click += new System.EventHandler(this.guna2ImageButton3_Click);
-            this.guna2ImageButton3.DragEnter += new System.Windows.Forms.DragEventHandler(this.guna2ImageButton3_DragEnter);
+            this.WINDOW.AllowDrop = true;
+            this.WINDOW.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.WINDOW.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.WINDOW.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.WINDOW.Image = ((System.Drawing.Image)(resources.GetObject("WINDOW.Image")));
+            this.WINDOW.ImageOffset = new System.Drawing.Point(0, 0);
+            this.WINDOW.ImageRotate = 0F;
+            this.WINDOW.Location = new System.Drawing.Point(89, 35);
+            this.WINDOW.Name = "WINDOW";
+            this.WINDOW.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.WINDOW.Size = new System.Drawing.Size(92, 105);
+            this.WINDOW.TabIndex = 13;
+            this.WINDOW.DragEnter += new System.Windows.Forms.DragEventHandler(this.guna2ImageButton3_DragEnter);
+            this.WINDOW.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton3_MouseDown_1);
             // 
-            // guna2ImageButton4
+            // WASHING_MACHINE
             // 
-            this.guna2ImageButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.guna2ImageButton4.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton4.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton4.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton4.Image")));
-            this.guna2ImageButton4.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton4.ImageRotate = 0F;
-            this.guna2ImageButton4.Location = new System.Drawing.Point(5, 146);
-            this.guna2ImageButton4.Name = "guna2ImageButton4";
-            this.guna2ImageButton4.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton4.Size = new System.Drawing.Size(79, 105);
-            this.guna2ImageButton4.TabIndex = 14;
+            this.WASHING_MACHINE.AllowDrop = true;
+            this.WASHING_MACHINE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.WASHING_MACHINE.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.WASHING_MACHINE.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.WASHING_MACHINE.Image = ((System.Drawing.Image)(resources.GetObject("WASHING_MACHINE.Image")));
+            this.WASHING_MACHINE.ImageOffset = new System.Drawing.Point(0, 0);
+            this.WASHING_MACHINE.ImageRotate = 0F;
+            this.WASHING_MACHINE.Location = new System.Drawing.Point(5, 146);
+            this.WASHING_MACHINE.Name = "WASHING_MACHINE";
+            this.WASHING_MACHINE.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.WASHING_MACHINE.Size = new System.Drawing.Size(79, 105);
+            this.WASHING_MACHINE.TabIndex = 14;
+            this.WASHING_MACHINE.DragEnter += new System.Windows.Forms.DragEventHandler(this.guna2ImageButton4_DragEnter);
+            this.WASHING_MACHINE.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton4_MouseDown);
             // 
-            // guna2ImageButton5
+            // REFRIGERATOR
             // 
-            this.guna2ImageButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.guna2ImageButton5.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton5.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton5.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton5.Image")));
-            this.guna2ImageButton5.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton5.ImageRotate = 0F;
-            this.guna2ImageButton5.Location = new System.Drawing.Point(90, 146);
-            this.guna2ImageButton5.Name = "guna2ImageButton5";
-            this.guna2ImageButton5.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton5.Size = new System.Drawing.Size(91, 105);
-            this.guna2ImageButton5.TabIndex = 15;
+            this.REFRIGERATOR.AllowDrop = true;
+            this.REFRIGERATOR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.REFRIGERATOR.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.REFRIGERATOR.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.REFRIGERATOR.Image = ((System.Drawing.Image)(resources.GetObject("REFRIGERATOR.Image")));
+            this.REFRIGERATOR.ImageOffset = new System.Drawing.Point(0, 0);
+            this.REFRIGERATOR.ImageRotate = 0F;
+            this.REFRIGERATOR.Location = new System.Drawing.Point(90, 146);
+            this.REFRIGERATOR.Name = "REFRIGERATOR";
+            this.REFRIGERATOR.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.REFRIGERATOR.Size = new System.Drawing.Size(91, 105);
+            this.REFRIGERATOR.TabIndex = 15;
+            this.REFRIGERATOR.DragEnter += new System.Windows.Forms.DragEventHandler(this.guna2ImageButton5_DragEnter);
+            this.REFRIGERATOR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton5_MouseDown);
             // 
-            // guna2ImageButton6
+            // AC
             // 
-            this.guna2ImageButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.guna2ImageButton6.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton6.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton6.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton6.Image")));
-            this.guna2ImageButton6.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton6.ImageRotate = 0F;
-            this.guna2ImageButton6.Location = new System.Drawing.Point(5, 257);
-            this.guna2ImageButton6.Name = "guna2ImageButton6";
-            this.guna2ImageButton6.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton6.Size = new System.Drawing.Size(79, 98);
-            this.guna2ImageButton6.TabIndex = 16;
+            this.AC.AllowDrop = true;
+            this.AC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.AC.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.AC.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.AC.Image = ((System.Drawing.Image)(resources.GetObject("AC.Image")));
+            this.AC.ImageOffset = new System.Drawing.Point(0, 0);
+            this.AC.ImageRotate = 0F;
+            this.AC.Location = new System.Drawing.Point(5, 257);
+            this.AC.Name = "AC";
+            this.AC.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.AC.Size = new System.Drawing.Size(79, 98);
+            this.AC.TabIndex = 16;
+            this.AC.DragEnter += new System.Windows.Forms.DragEventHandler(this.guna2ImageButton6_DragEnter);
+            this.AC.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton6_MouseDown);
             // 
-            // guna2ImageButton7
+            // DOOR
             // 
-            this.guna2ImageButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.guna2ImageButton7.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton7.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton7.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton7.Image")));
-            this.guna2ImageButton7.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton7.ImageRotate = 0F;
-            this.guna2ImageButton7.Location = new System.Drawing.Point(90, 257);
-            this.guna2ImageButton7.Name = "guna2ImageButton7";
-            this.guna2ImageButton7.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton7.Size = new System.Drawing.Size(91, 98);
-            this.guna2ImageButton7.TabIndex = 17;
+            this.DOOR.AllowDrop = true;
+            this.DOOR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.DOOR.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.DOOR.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.DOOR.Image = ((System.Drawing.Image)(resources.GetObject("DOOR.Image")));
+            this.DOOR.ImageOffset = new System.Drawing.Point(0, 0);
+            this.DOOR.ImageRotate = 0F;
+            this.DOOR.Location = new System.Drawing.Point(90, 257);
+            this.DOOR.Name = "DOOR";
+            this.DOOR.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.DOOR.Size = new System.Drawing.Size(91, 98);
+            this.DOOR.TabIndex = 17;
+            this.DOOR.DragEnter += new System.Windows.Forms.DragEventHandler(this.guna2ImageButton7_DragEnter);
+            this.DOOR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton7_MouseDown);
             // 
-            // guna2ImageButton8
+            // TV
             // 
-            this.guna2ImageButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.guna2ImageButton8.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton8.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton8.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton8.Image")));
-            this.guna2ImageButton8.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton8.ImageRotate = 0F;
-            this.guna2ImageButton8.Location = new System.Drawing.Point(5, 361);
-            this.guna2ImageButton8.Name = "guna2ImageButton8";
-            this.guna2ImageButton8.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton8.Size = new System.Drawing.Size(79, 100);
-            this.guna2ImageButton8.TabIndex = 18;
+            this.TV.AllowDrop = true;
+            this.TV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.TV.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.TV.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.TV.Image = ((System.Drawing.Image)(resources.GetObject("TV.Image")));
+            this.TV.ImageOffset = new System.Drawing.Point(0, 0);
+            this.TV.ImageRotate = 0F;
+            this.TV.Location = new System.Drawing.Point(5, 361);
+            this.TV.Name = "TV";
+            this.TV.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.TV.Size = new System.Drawing.Size(79, 100);
+            this.TV.TabIndex = 18;
+            this.TV.DragEnter += new System.Windows.Forms.DragEventHandler(this.guna2ImageButton8_DragEnter);
+            this.TV.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton8_MouseDown);
             // 
             // panel5
             // 
@@ -405,46 +399,12 @@
             this.adminLabel.TabIndex = 4;
             this.adminLabel.Text = "Youssef Elmoudene";
             // 
-            // apartementForm1
-            // 
-            this.apartementForm1.AllowDrop = true;
-            this.apartementForm1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("apartementForm1.BackgroundImage")));
-            this.apartementForm1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.apartementForm1.Location = new System.Drawing.Point(16, 16);
-            this.apartementForm1.Margin = new System.Windows.Forms.Padding(8, 8, 30, 8);
-            this.apartementForm1.Name = "apartementForm1";
-            this.apartementForm1.Size = new System.Drawing.Size(484, 434);
-            this.apartementForm1.TabIndex = 4;
-            this.apartementForm1.Load += new System.EventHandler(this.apartementForm1_Load);
-            // 
-            // salonMaisonForm1
-            // 
-            this.salonMaisonForm1.AllowDrop = true;
-            this.salonMaisonForm1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("salonMaisonForm1.BackgroundImage")));
-            this.salonMaisonForm1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.salonMaisonForm1.Location = new System.Drawing.Point(16, 466);
-            this.salonMaisonForm1.Margin = new System.Windows.Forms.Padding(8, 8, 30, 8);
-            this.salonMaisonForm1.Name = "salonMaisonForm1";
-            this.salonMaisonForm1.Size = new System.Drawing.Size(484, 434);
-            this.salonMaisonForm1.TabIndex = 5;
-            // 
-            // chambreForm1
-            // 
-            this.chambreForm1.AllowDrop = true;
-            this.chambreForm1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("chambreForm1.BackgroundImage")));
-            this.chambreForm1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.chambreForm1.Location = new System.Drawing.Point(16, 916);
-            this.chambreForm1.Margin = new System.Windows.Forms.Padding(8, 8, 30, 8);
-            this.chambreForm1.Name = "chambreForm1";
-            this.chambreForm1.Size = new System.Drawing.Size(484, 434);
-            this.chambreForm1.TabIndex = 6;
-            // 
             // chambreForm2
             // 
             this.chambreForm2.AllowDrop = true;
             this.chambreForm2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("chambreForm2.BackgroundImage")));
             this.chambreForm2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.chambreForm2.Location = new System.Drawing.Point(16, 1366);
+            this.chambreForm2.Location = new System.Drawing.Point(16, 16);
             this.chambreForm2.Margin = new System.Windows.Forms.Padding(8, 8, 30, 8);
             this.chambreForm2.Name = "chambreForm2";
             this.chambreForm2.Size = new System.Drawing.Size(484, 434);
@@ -499,17 +459,13 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
-        private ApartementForm apartementForm1;
-        private SalonMaisonForm salonMaisonForm1;
-        private ChambreForm chambreForm1;
+        private Guna.UI2.WinForms.Guna2ImageButton LAMB;
         private ChambreForm chambreForm2;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton3;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton4;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton5;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton6;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton7;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton8;
+        private Guna.UI2.WinForms.Guna2ImageButton WINDOW;
+        private Guna.UI2.WinForms.Guna2ImageButton WASHING_MACHINE;
+        private Guna.UI2.WinForms.Guna2ImageButton REFRIGERATOR;
+        private Guna.UI2.WinForms.Guna2ImageButton AC;
+        private Guna.UI2.WinForms.Guna2ImageButton DOOR;
+        private Guna.UI2.WinForms.Guna2ImageButton TV;
     }
 }
