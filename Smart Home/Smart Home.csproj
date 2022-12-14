@@ -215,6 +215,12 @@
     <Compile Include="forms\SalonMaisonForm.Designer.cs">
       <DependentUpon>SalonMaisonForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\ToiletteForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="forms\ToiletteForm.Designer.cs">
+      <DependentUpon>ToiletteForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AppartementService.cs" />
@@ -243,6 +249,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="forms\SalonMaisonForm.resx">
       <DependentUpon>SalonMaisonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\ToiletteForm.resx">
+      <DependentUpon>ToiletteForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
