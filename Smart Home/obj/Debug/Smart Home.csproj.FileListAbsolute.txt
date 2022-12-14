@@ -169,3 +169,6 @@ C:\Users\hp\Desktop\Emsi\C#\Smart home\Smart Home\obj\Debug\Smart_Home.forms.Apa
 C:\Users\hp\Desktop\Emsi\C#\Smart home\Smart Home\obj\Debug\Smart_Home.forms.ChambreForm.resources
 C:\Users\hp\Desktop\Emsi\C#\Smart home\Smart Home\obj\Debug\Smart_Home.forms.Dashboard.resources
 C:\Users\hp\Desktop\Emsi\C#\Smart home\Smart Home\obj\Debug\Smart_Home.forms.SalonMaisonForm.resources
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.AddUserForm.resources
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.AddApartementForm.resources
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.AddChambreForm.resources

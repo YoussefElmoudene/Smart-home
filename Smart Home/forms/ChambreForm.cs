@@ -1,28 +1,35 @@
 ﻿using Guna.UI2.WinForms;
+using Smart_Home.Classes;
+using Smart_Home.Services;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Smart_Home.forms
 {
     public partial class ChambreForm : UserControl
     {
-        public static Guna2ImageButton Guna2ImageButton { get; private set; }
+        public Chambre chambre = new Chambre();
 
+        public static Guna2ImageButton Guna2ImageButton { get; private set; }
+        private ChambreService chambreService = new ChambreService();
         public ChambreForm()
         {
             InitializeComponent();
         }
 
+        public void passChambre(int chambreId)
+        {
+            this.chambre = chambreService.findById(chambreId);
+        }
+
         private void ChambreForm_Load(object sender, EventArgs e)
         {
-           
+
+        }
+
+        public void changeName(string name)
+        {
+            chambreName.Text = "Bedroom of " + name;
         }
 
         private void ChambreForm_DragEnter(object sender, DragEventArgs e)
@@ -32,9 +39,7 @@ namespace Smart_Home.forms
 
         private void ChambreForm_DragDrop(object sender, DragEventArgs e)
         {
-            //Guna2ImageButton getPicture = (Guna2ImageButton)e.Data.GetData(DataFormats.Text);
-           // ChambreForm.Guna2ImageButton = getPicture;
-            MessageBox.Show(e.Data.GetData(DataFormats.Text).ToString()) ;
+            MessageBox.Show(e.Data.GetData(DataFormats.Text).ToString());
 
 
         }
