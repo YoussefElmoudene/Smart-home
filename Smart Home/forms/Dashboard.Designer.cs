@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.contacterTechnicienLabel = new System.Windows.Forms.Label();
+            this.allowTechnicien = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.nomApartement = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.AddChambre = new Guna.UI2.WinForms.Guna2Button();
@@ -54,8 +56,6 @@
             this.adminLabel = new System.Windows.Forms.Label();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.DashbordPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.allowTechnicien = new Guna.UI2.WinForms.Guna2ToggleSwitch();
-            this.contacterTechnicienLabel = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -88,6 +88,7 @@
             // 
             // panel7
             // 
+            this.panel7.BackColor = System.Drawing.Color.White;
             this.panel7.Controls.Add(this.contacterTechnicienLabel);
             this.panel7.Controls.Add(this.allowTechnicien);
             this.panel7.Controls.Add(this.nomApartement);
@@ -97,6 +98,35 @@
             this.panel7.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.panel7.Size = new System.Drawing.Size(341, 74);
             this.panel7.TabIndex = 5;
+            // 
+            // contacterTechnicienLabel
+            // 
+            this.contacterTechnicienLabel.AutoSize = true;
+            this.contacterTechnicienLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contacterTechnicienLabel.Location = new System.Drawing.Point(58, 42);
+            this.contacterTechnicienLabel.Name = "contacterTechnicienLabel";
+            this.contacterTechnicienLabel.Size = new System.Drawing.Size(147, 16);
+            this.contacterTechnicienLabel.TabIndex = 3;
+            this.contacterTechnicienLabel.Text = "Contacter technicien";
+            this.contacterTechnicienLabel.Visible = false;
+            this.contacterTechnicienLabel.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // allowTechnicien
+            // 
+            this.allowTechnicien.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.allowTechnicien.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.allowTechnicien.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.allowTechnicien.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.allowTechnicien.Location = new System.Drawing.Point(7, 38);
+            this.allowTechnicien.Name = "allowTechnicien";
+            this.allowTechnicien.Size = new System.Drawing.Size(45, 20);
+            this.allowTechnicien.TabIndex = 2;
+            this.allowTechnicien.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.allowTechnicien.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.allowTechnicien.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.allowTechnicien.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.allowTechnicien.Visible = false;
+            this.allowTechnicien.CheckedChanged += new System.EventHandler(this.allowTechnicien_CheckedChanged);
             // 
             // nomApartement
             // 
@@ -113,11 +143,11 @@
             // 
             this.panel6.Controls.Add(this.AddChambre);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel6.Location = new System.Drawing.Point(557, 0);
+            this.panel6.Location = new System.Drawing.Point(565, 0);
             this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel6.Name = "panel6";
             this.panel6.Padding = new System.Windows.Forms.Padding(11, 10, 11, 10);
-            this.panel6.Size = new System.Drawing.Size(267, 74);
+            this.panel6.Size = new System.Drawing.Size(259, 74);
             this.panel6.TabIndex = 4;
             // 
             // AddChambre
@@ -130,7 +160,7 @@
             this.AddChambre.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.AddChambre.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.AddChambre.ForeColor = System.Drawing.Color.White;
-            this.AddChambre.Location = new System.Drawing.Point(34, 12);
+            this.AddChambre.Location = new System.Drawing.Point(27, 12);
             this.AddChambre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.AddChambre.Name = "AddChambre";
             this.AddChambre.Size = new System.Drawing.Size(208, 46);
@@ -201,7 +231,7 @@
             // 
             // guna2PictureBox1
             // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.White;
             this.guna2PictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.BackgroundImage")));
             this.guna2PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -436,6 +466,7 @@
             // 
             // DashbordPanel
             // 
+            this.DashbordPanel.BackColor = System.Drawing.Color.Transparent;
             this.DashbordPanel.ColumnCount = 3;
             this.DashbordPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.DashbordPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
@@ -448,35 +479,6 @@
             this.DashbordPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.DashbordPanel.Size = new System.Drawing.Size(1114, 714);
             this.DashbordPanel.TabIndex = 3;
-            // 
-            // allowTechnicien
-            // 
-            this.allowTechnicien.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.allowTechnicien.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.allowTechnicien.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.allowTechnicien.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.allowTechnicien.Location = new System.Drawing.Point(7, 38);
-            this.allowTechnicien.Name = "allowTechnicien";
-            this.allowTechnicien.Size = new System.Drawing.Size(45, 20);
-            this.allowTechnicien.TabIndex = 2;
-            this.allowTechnicien.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.allowTechnicien.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.allowTechnicien.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.allowTechnicien.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.allowTechnicien.Visible = false;
-            this.allowTechnicien.CheckedChanged += new System.EventHandler(this.allowTechnicien_CheckedChanged);
-            // 
-            // contacterTechnicienLabel
-            // 
-            this.contacterTechnicienLabel.AutoSize = true;
-            this.contacterTechnicienLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contacterTechnicienLabel.Location = new System.Drawing.Point(58, 42);
-            this.contacterTechnicienLabel.Name = "contacterTechnicienLabel";
-            this.contacterTechnicienLabel.Size = new System.Drawing.Size(147, 16);
-            this.contacterTechnicienLabel.TabIndex = 3;
-            this.contacterTechnicienLabel.Text = "Contacter technicien";
-            this.contacterTechnicienLabel.Visible = false;
-            this.contacterTechnicienLabel.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // Dashboard
             // 

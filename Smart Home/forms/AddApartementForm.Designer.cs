@@ -77,7 +77,7 @@
             this.AnullerButton.Name = "AnullerButton";
             this.AnullerButton.Size = new System.Drawing.Size(208, 46);
             this.AnullerButton.TabIndex = 10;
-            this.AnullerButton.Text = "Anuller";
+            this.AnullerButton.Text = "Annuler";
             this.AnullerButton.Click += new System.EventHandler(this.AnullerButton_Click);
             // 
             // nom

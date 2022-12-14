@@ -80,9 +80,11 @@
             this.kitchenPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.kitchenPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.kitchenPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.kitchenPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.kitchenPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.kitchenPanel.Location = new System.Drawing.Point(0, 58);
             this.kitchenPanel.Name = "kitchenPanel";
+            this.kitchenPanel.Padding = new System.Windows.Forms.Padding(5);
             this.kitchenPanel.RowCount = 2;
             this.kitchenPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.kitchenPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));

@@ -221,10 +221,54 @@
     <Compile Include="forms\ToiletteForm.Designer.cs">
       <DependentUpon>ToiletteForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\UserControls\ACControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="forms\UserControls\ACControl.Designer.cs">
+      <DependentUpon>ACControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\UserControls\DOORControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="forms\UserControls\DOORControl.Designer.cs">
+      <DependentUpon>DOORControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\UserControls\LampControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="forms\UserControls\LampControl.Designer.cs">
+      <DependentUpon>LampControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\UserControls\REFRIGERATORControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="forms\UserControls\REFRIGERATORControl.Designer.cs">
+      <DependentUpon>REFRIGERATORControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\UserControls\TvControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="forms\UserControls\TvControl.Designer.cs">
+      <DependentUpon>TvControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\UserControls\WIndowControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="forms\UserControls\WIndowControl.Designer.cs">
+      <DependentUpon>WIndowControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\UserControls\WMControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="forms\UserControls\WMControl.Designer.cs">
+      <DependentUpon>WMControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AppartementService.cs" />
     <Compile Include="Services\ChambreService.cs" />
+    <Compile Include="Services\FurnitureService.cs" />
+    <Compile Include="Services\ObjetService.cs" />
     <Compile Include="Services\UserService.cs" />
     <EmbeddedResource Include="forms\AddApartementForm.resx">
       <DependentUpon>AddApartementForm.cs</DependentUpon>
@@ -252,6 +296,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="forms\ToiletteForm.resx">
       <DependentUpon>ToiletteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\UserControls\ACControl.resx">
+      <DependentUpon>ACControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\UserControls\DOORControl.resx">
+      <DependentUpon>DOORControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\UserControls\LampControl.resx">
+      <DependentUpon>LampControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\UserControls\REFRIGERATORControl.resx">
+      <DependentUpon>REFRIGERATORControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\UserControls\TvControl.resx">
+      <DependentUpon>TvControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\UserControls\WIndowControl.resx">
+      <DependentUpon>WIndowControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\UserControls\WMControl.resx">
+      <DependentUpon>WMControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

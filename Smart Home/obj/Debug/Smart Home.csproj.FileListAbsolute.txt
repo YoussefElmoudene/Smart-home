@@ -172,3 +172,12 @@ C:\Users\hp\Desktop\Emsi\C#\Smart home\Smart Home\obj\Debug\Smart_Home.forms.Sal
 C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.AddUserForm.resources
 C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.AddApartementForm.resources
 C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.AddChambreForm.resources
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.ToiletteForm.resources
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.UserControls.ACControl.resources
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.UserControls.DOORControl.resources
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.UserControls.LampControl.resources
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.UserControls.REFRIGERATORControl.resources
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.UserControls.TvControl.resources
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.UserControls.WIndowControl.resources
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.UserControls.WMControl.resources
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.ToiletteControl.resources

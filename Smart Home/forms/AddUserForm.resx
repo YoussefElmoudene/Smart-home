@@ -235,7 +235,7 @@
     <value>9</value>
   </data>
   <data name="AnullerButton.Text" xml:space="preserve">
-    <value>Anuller</value>
+    <value>Annuler</value>
   </data>
   <data name="&gt;&gt;AnullerButton.Name" xml:space="preserve">
     <value>AnullerButton</value>
@@ -424,7 +424,7 @@
     <value>8</value>
   </data>
   <data name="AddUserButon.Text" xml:space="preserve">
-    <value>Add user</value>
+    <value>Ajouter utlisateur</value>
   </data>
   <data name="&gt;&gt;AddUserButon.Name" xml:space="preserve">
     <value>AddUserButon</value>

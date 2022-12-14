@@ -284,7 +284,12 @@ namespace Smart_Home.forms
                     }
                     else if (dataRow[1].ToString() == "BATHROOM")
                     {
-
+                        ToiletteForm toiletteControl = new ToiletteForm();
+                        toiletteControl.Dock = DockStyle.Fill;
+                        toiletteControl.passChambre(Convert.ToInt16(dataRow[0]));
+                        DashbordPanel.Controls.Add(toiletteControl);
+                        DashbordPanel.Controls.SetChildIndex(toiletteControl, i);
+                        i++;
                     }
                 }
             }
@@ -339,7 +344,13 @@ namespace Smart_Home.forms
                     }
                     else if (dataRow[1].ToString() == "BATHROOM")
                     {
-
+                        
+                        ToiletteForm toiletteControl = new ToiletteForm();
+                        toiletteControl.Dock = DockStyle.Fill;
+                        toiletteControl.passChambre(Convert.ToInt16(dataRow[0]));
+                        DashbordPanel.Controls.Add(toiletteControl);
+                        DashbordPanel.Controls.SetChildIndex(toiletteControl, i);
+                        i++;
                     }
                 }
             }

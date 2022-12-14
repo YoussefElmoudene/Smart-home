@@ -32,7 +32,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.chambreName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.chmabrePanel = new System.Windows.Forms.TableLayoutPanel();
+            this.chambrePanel = new System.Windows.Forms.TableLayoutPanel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,22 +72,22 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Controlling";
             // 
-            // chmabrePanel
+            // chambrePanel
             // 
-            this.chmabrePanel.BackColor = System.Drawing.Color.Transparent;
-            this.chmabrePanel.ColumnCount = 4;
-            this.chmabrePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.chmabrePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.chmabrePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.chmabrePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.chmabrePanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chmabrePanel.Location = new System.Drawing.Point(0, 69);
-            this.chmabrePanel.Name = "chmabrePanel";
-            this.chmabrePanel.RowCount = 2;
-            this.chmabrePanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.chmabrePanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.chmabrePanel.Size = new System.Drawing.Size(645, 465);
-            this.chmabrePanel.TabIndex = 4;
+            this.chambrePanel.BackColor = System.Drawing.Color.Transparent;
+            this.chambrePanel.ColumnCount = 4;
+            this.chambrePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.chambrePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.chambrePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.chambrePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.chambrePanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chambrePanel.Location = new System.Drawing.Point(0, 69);
+            this.chambrePanel.Name = "chambrePanel";
+            this.chambrePanel.RowCount = 2;
+            this.chambrePanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.chambrePanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.chambrePanel.Size = new System.Drawing.Size(645, 465);
+            this.chambrePanel.TabIndex = 4;
             // 
             // ChambreForm
             // 
@@ -97,7 +97,7 @@
             this.AutoSize = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Controls.Add(this.chmabrePanel);
+            this.Controls.Add(this.chambrePanel);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "ChambreForm";
@@ -116,6 +116,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label chambreName;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TableLayoutPanel chmabrePanel;
+        private System.Windows.Forms.TableLayoutPanel chambrePanel;
     }
 }
