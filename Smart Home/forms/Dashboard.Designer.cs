@@ -79,7 +79,7 @@
             this.guna2Panel1.Controls.Add(this.guna2PictureBox2);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(1036, 60);
             this.guna2Panel1.TabIndex = 0;
@@ -89,9 +89,9 @@
             this.panel6.Controls.Add(this.AddChambre);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel6.Location = new System.Drawing.Point(318, 0);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
-            this.panel6.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.panel6.Padding = new System.Windows.Forms.Padding(8);
             this.panel6.Size = new System.Drawing.Size(244, 60);
             this.panel6.TabIndex = 4;
             // 
@@ -106,7 +106,7 @@
             this.AddChambre.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.AddChambre.ForeColor = System.Drawing.Color.White;
             this.AddChambre.Location = new System.Drawing.Point(77, 10);
-            this.AddChambre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AddChambre.Margin = new System.Windows.Forms.Padding(2);
             this.AddChambre.Name = "AddChambre";
             this.AddChambre.Size = new System.Drawing.Size(156, 37);
             this.AddChambre.TabIndex = 1;
@@ -119,9 +119,9 @@
             this.panel4.Controls.Add(this.AddApartement);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel4.Location = new System.Drawing.Point(562, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
-            this.panel4.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.panel4.Padding = new System.Windows.Forms.Padding(8);
             this.panel4.Size = new System.Drawing.Size(244, 60);
             this.panel4.TabIndex = 3;
             // 
@@ -136,7 +136,7 @@
             this.AddApartement.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.AddApartement.ForeColor = System.Drawing.Color.White;
             this.AddApartement.Location = new System.Drawing.Point(68, 10);
-            this.AddApartement.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AddApartement.Margin = new System.Windows.Forms.Padding(2);
             this.AddApartement.Name = "AddApartement";
             this.AddApartement.Size = new System.Drawing.Size(156, 37);
             this.AddApartement.TabIndex = 0;
@@ -149,9 +149,9 @@
             this.panel1.Controls.Add(this.AddUser);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(806, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.panel1.Padding = new System.Windows.Forms.Padding(8);
             this.panel1.Size = new System.Drawing.Size(170, 60);
             this.panel1.TabIndex = 2;
             // 
@@ -166,7 +166,7 @@
             this.AddUser.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.AddUser.ForeColor = System.Drawing.Color.White;
             this.AddUser.Location = new System.Drawing.Point(10, 10);
-            this.AddUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AddUser.Margin = new System.Windows.Forms.Padding(2);
             this.AddUser.Name = "AddUser";
             this.AddUser.Size = new System.Drawing.Size(156, 37);
             this.AddUser.TabIndex = 1;
@@ -198,7 +198,7 @@
             this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.ImageRotate = 0F;
             this.guna2PictureBox2.Location = new System.Drawing.Point(976, 0);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.Size = new System.Drawing.Size(60, 60);
             this.guna2PictureBox2.TabIndex = 1;
@@ -212,7 +212,7 @@
             this.guna2Panel3.Controls.Add(this.panel2);
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel3.Location = new System.Drawing.Point(0, 60);
-            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(1036, 580);
             this.guna2Panel3.TabIndex = 2;
@@ -224,7 +224,7 @@
             this.panel3.Controls.Add(this.flowLayoutPanel2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(200, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(836, 580);
             this.panel3.TabIndex = 3;
@@ -236,9 +236,9 @@
             this.flowLayoutPanel2.Controls.Add(this.chambreForm2);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.flowLayoutPanel2.Padding = new System.Windows.Forms.Padding(8);
             this.flowLayoutPanel2.Size = new System.Drawing.Size(836, 580);
             this.flowLayoutPanel2.TabIndex = 0;
             // 
@@ -259,7 +259,7 @@
             this.panel2.Controls.Add(this.panel5);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(200, 580);
             this.panel2.TabIndex = 2;
@@ -276,7 +276,7 @@
             this.flowLayoutPanel1.Controls.Add(this.TV);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 98);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(2, 32, 0, 0);
             this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 482);
@@ -292,7 +292,7 @@
             this.LAMB.ImageOffset = new System.Drawing.Point(0, 0);
             this.LAMB.ImageRotate = 0F;
             this.LAMB.Location = new System.Drawing.Point(4, 34);
-            this.LAMB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LAMB.Margin = new System.Windows.Forms.Padding(2);
             this.LAMB.Name = "LAMB";
             this.LAMB.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.LAMB.Size = new System.Drawing.Size(80, 106);
@@ -408,7 +408,7 @@
             this.panel5.Controls.Add(this.adminLabel);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
             this.panel5.Padding = new System.Windows.Forms.Padding(5, 4, 4, 4);
             this.panel5.Size = new System.Drawing.Size(200, 98);
@@ -420,7 +420,7 @@
             this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
             this.guna2CirclePictureBox1.ImageRotate = 0F;
             this.guna2CirclePictureBox1.Location = new System.Drawing.Point(5, 4);
-            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.Size = new System.Drawing.Size(71, 74);
@@ -450,7 +450,7 @@
             this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Dashboard";
             this.Text = "Dashboard";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
