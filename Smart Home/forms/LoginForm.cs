@@ -3,14 +3,9 @@ using Smart_Home.Classes;
 using Smart_Home.Connextion;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace Smart_Home.forms
 {
@@ -55,13 +50,30 @@ namespace Smart_Home.forms
                         data.Add(item.ToString());
                     }
                 }
-                
-                User user = new User(Convert.ToInt32(data[0]), data[1], data[2], data[3], data[4], Convert.ToInt32(data[5]), data[6]);
+
+                User user = new User(Convert.ToInt32(data[0]), data[1], data[2], data[3], data[4], Convert.ToInt32(data[5]), data[6], Convert.ToBoolean(data[7]));
+                if (user.Firstcon || user.Role == "TECHNICIEN")
+                {
+                    Dashboard dashboard = new Dashboard(user);
+                    dashboard.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    ChangePassword ch = new ChangePassword(user);
+                    ch.Show();
+                    this.Hide();
+                }
+                // Dashboard dashboard = new Dashboard(user);
+                //dashboard.Show();
+                //this.Hide();
+
                
-                Dashboard dashboard = new Dashboard(user);
-                dashboard.Show();
-                this.Hide();
-            } else
+
+
+
+            }
+            else
             {
                 this.errorMessage.Visible = true;
                 this.guna2TextBox2.BorderColor = Color.Red;
@@ -88,6 +100,11 @@ namespace Smart_Home.forms
             this.guna2TextBox2.BorderColor = Color.FromArgb(25, 150, 243);
             this.guna2TextBox1.BorderColor = Color.FromArgb(25, 150, 243);
 
+        }
+
+        private void guna2ControlBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

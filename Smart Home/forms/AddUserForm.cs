@@ -2,15 +2,7 @@
 using Smart_Home.Classes;
 using Smart_Home.Connextion;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace Smart_Home.forms
 {
@@ -36,14 +28,13 @@ namespace Smart_Home.forms
 
         private void AddUserButon_Click(object sender, EventArgs e)
         {
-            User user = new User(0,fullname.Text,telephone.Text,username.Text,password.Text, Convert.ToInt32(age.Text),role.SelectedItem.ToString());
-            MessageBox.Show(user.ToString());
+            User user = new User(0, fullname.Text, telephone.Text, username.Text, password.Text, Convert.ToInt32(age.Text), role.SelectedItem.ToString(),false);
             MyConnextion connextion = new MyConnextion();
             connextion.open();
             MySqlCommand cmd = connextion.getConnextion().CreateCommand();
 
-            cmd.CommandText = "INSERT INTO `user`(`id`, `fullname`, `telephone`, `username`, `password`, `age`, `role`) VALUES" +
-                "VALUES(@id, @fullname,@telephone,@username,@password,@age,@role)";
+            cmd.CommandText = "INSERT INTO `user`(`id`, `fullname`, `telephone`, `username`, `password`, `age`, `role`, `firstcon`) " +
+                "VALUES(@id, @fullname,@telephone,@username,@password,@age,@role,false)";
             cmd.Parameters.AddWithValue("@id", null);
             cmd.Parameters.AddWithValue("@fullname", user.Fullname);
             cmd.Parameters.AddWithValue("@telephone", user.Telephone);
@@ -52,8 +43,18 @@ namespace Smart_Home.forms
             cmd.Parameters.AddWithValue("@age", user.Age);
             cmd.Parameters.AddWithValue("@role", user.Role);
             cmd.ExecuteNonQuery();
+            fullname.Text = "";
+            telephone.Text = "";
+            username.Text = "";
+            password.Text = "";
+            age.Text = "";
+            role.SelectedItem = "";
+            this.Close();
+        }
 
-            cmd.ExecuteNonQuery();
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

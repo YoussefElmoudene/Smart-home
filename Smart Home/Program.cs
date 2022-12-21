@@ -1,8 +1,5 @@
 ﻿using Smart_Home.forms;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Smart_Home

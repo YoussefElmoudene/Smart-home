@@ -117,6 +117,33 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 24</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>new utilisateur</value>
+  </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
   </data>
@@ -127,6 +154,33 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="guna2CircleButton1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="guna2CircleButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="guna2CircleButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABGdBTUEAALGPC/xhBQAAAK1JREFUSEtj
+        GAWjABl4AHEHEJcDcRuUjQu3AjFIXTsQuwIx0QCkkRxAkr5qKE0qqIHSRIFaKE0qIMmSBigNA3FALABh
+        wgGIHwlhwgG6PrwAXTE/EE8DYiEwD5MPAxRZAgIwgxWhNLoFIECxJSAgD8QvoDQ2MPh9Qpc4AaUiqqcu
+        cvMJSfrokuPJLbtAhSnRwB2IQSVsFRCDggBUyuLCIHmQOpB6NyAeBaMABBgYAMSDI5d+kbl5AAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="guna2CircleButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 4</value>
+  </data>
+  <data name="guna2CircleButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="guna2CircleButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 31</value>
+  </data>
+  <data name="guna2CircleButton1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;guna2CircleButton1.Name" xml:space="preserve">
@@ -141,21 +195,21 @@
   <data name="&gt;&gt;guna2CircleButton1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="panel2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>925, 48</value>
+    <value>693, 39</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="panel2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -178,19 +232,19 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="AnullerButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 295</value>
+    <value>6, 240</value>
   </data>
   <data name="AnullerButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="AnullerButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 46</value>
+    <value>156, 37</value>
   </data>
   <data name="AnullerButton.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
   <data name="AnullerButton.Text" xml:space="preserve">
-    <value>Anuller</value>
+    <value>Annuler</value>
   </data>
   <data name="&gt;&gt;AnullerButton.Name" xml:space="preserve">
     <value>AnullerButton</value>
@@ -208,13 +262,10 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="age.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 201</value>
-  </data>
-  <data name="age.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>7, 163</value>
   </data>
   <data name="age.Size" type="System.Drawing.Size, System.Drawing">
-    <value>335, 44</value>
+    <value>251, 36</value>
   </data>
   <data name="age.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -235,13 +286,10 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="password.Location" type="System.Drawing.Point, System.Drawing">
-    <value>466, 105</value>
-  </data>
-  <data name="password.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>349, 85</value>
   </data>
   <data name="password.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 44</value>
+    <value>237, 36</value>
   </data>
   <data name="password.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -262,13 +310,10 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="telephone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>466, 9</value>
-  </data>
-  <data name="telephone.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>349, 7</value>
   </data>
   <data name="telephone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 44</value>
+    <value>237, 36</value>
   </data>
   <data name="telephone.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -289,13 +334,10 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="username.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 105</value>
-  </data>
-  <data name="username.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>7, 85</value>
   </data>
   <data name="username.Size" type="System.Drawing.Size, System.Drawing">
-    <value>335, 44</value>
+    <value>251, 36</value>
   </data>
   <data name="username.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -316,13 +358,10 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="fullname.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 9</value>
-  </data>
-  <data name="fullname.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>7, 7</value>
   </data>
   <data name="fullname.Size" type="System.Drawing.Size, System.Drawing">
-    <value>335, 44</value>
+    <value>251, 36</value>
   </data>
   <data name="fullname.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -343,10 +382,13 @@
     <value>Microsoft Sans Serif, 10.2pt</value>
   </data>
   <data name="role.Location" type="System.Drawing.Point, System.Drawing">
-    <value>465, 200</value>
+    <value>348, 162</value>
+  </data>
+  <data name="role.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="role.Size" type="System.Drawing.Size, System.Drawing">
-    <value>318, 28</value>
+    <value>240, 25</value>
   </data>
   <data name="role.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -367,19 +409,19 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="AddUserButon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>465, 295</value>
+    <value>348, 240</value>
   </data>
   <data name="AddUserButon.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="AddUserButon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 46</value>
+    <value>156, 37</value>
   </data>
   <data name="AddUserButon.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
   <data name="AddUserButon.Text" xml:space="preserve">
-    <value>Add user</value>
+    <value>Ajouter utlisateur</value>
   </data>
   <data name="&gt;&gt;AddUserButon.Name" xml:space="preserve">
     <value>AddUserButon</value>
@@ -397,16 +439,19 @@
     <value>Bottom</value>
   </data>
   <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 49</value>
+    <value>0, 40</value>
+  </data>
+  <data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="tableLayoutPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>925, 396</value>
+    <value>693, 322</value>
   </data>
   <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -430,10 +475,13 @@
     <value>Fill</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 0</value>
+    <value>8, 0</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>925, 445</value>
+    <value>693, 362</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -450,80 +498,11 @@
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="guna2CircleButton1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="guna2CircleButton1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="guna2CircleButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAACtSURBVEhLYxgFowAZeABxBxCXA3EblI0LtwIxSF07ELsCMdEApJEcQJK+aihNKqiB0kSBWihN
-        KiDJkgYoDQNxQCwAYcIBiB8JYcIBuj68AF0xPxBPA2IhMA+TDwMUWQICMIMVoTS6BSBAsSUgIA/EL6A0
-        NjD4fUKXOAGlIqqnLnLzCUn66JLjyS27QIUp0cAdiEElbBUQg4IAVMriwiB5kDqQejcgHgWjAAQYGADE
-        gyOXfpG5eQAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="guna2CircleButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>882, 5</value>
-  </data>
-  <data name="guna2CircleButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 38</value>
-  </data>
-  <data name="guna2CircleButton1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;guna2CircleButton1.Name" xml:space="preserve">
-    <value>guna2CircleButton1</value>
-  </data>
-  <data name="&gt;&gt;guna2CircleButton1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2CircleButton, Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4</value>
-  </data>
-  <data name="&gt;&gt;guna2CircleButton1.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;guna2CircleButton1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 5</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 29</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>new utilisateur</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -532,10 +511,13 @@
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>945, 455</value>
+    <value>709, 370</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 0, 10, 10</value>
+    <value>8, 0, 8, 8</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
