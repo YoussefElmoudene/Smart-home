@@ -277,3 +277,4 @@ C:\Users\hp\source\repos\Smart-home\Smart Home\obj\Debug\Smart Home.csproj.CopyC
 C:\Users\hp\source\repos\Smart-home\Smart Home\obj\Debug\Smart Home.exe
 C:\Users\hp\source\repos\Smart-home\Smart Home\obj\Debug\Smart Home.pdb
 C:\Users\hp\source\repos\Smart-home\Smart Home\obj\Debug\Smart_Home.forms.ChangePassword.resources
+C:\Users\hp\source\repos\Smart Home\Smart Home\obj\Debug\Smart_Home.forms.ChangePassword.resources

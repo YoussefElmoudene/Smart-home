@@ -168,7 +168,7 @@
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "Email";
+            this.guna2TextBox1.PlaceholderText = "Username";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.Size = new System.Drawing.Size(335, 44);
             this.guna2TextBox1.TabIndex = 1;

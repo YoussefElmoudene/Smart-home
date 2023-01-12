@@ -22,7 +22,7 @@ namespace Smart_Home.forms
 
         public AddChambreForm(Appartement appartement)
         {
-            this.appartement = appartement;
+            this.appartement = this.appartementService.findById(appartement.Id);
             InitializeComponent();
             typeComboBox.Items.Add("SALON");
             typeComboBox.Items.Add("KITCHEN");
@@ -69,7 +69,6 @@ namespace Smart_Home.forms
                 return;
             }
             this.appartement = this.appartementService.updateSurface(this.appartement.Surface - surface, this.appartement.Id);
-           
             MyConnextion connextion = new MyConnextion();
             connextion.open();
             MySqlCommand cmd = connextion.getConnextion().CreateCommand();

@@ -410,7 +410,9 @@ namespace Smart_Home.forms
         }
 
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+      
+
+        private void guna2ImageRadioButton1_CheckedChanged(object sender, EventArgs e)
         {
             LoginForm lf = new LoginForm();
             lf.Show();

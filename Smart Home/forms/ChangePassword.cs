@@ -21,7 +21,6 @@ namespace Smart_Home.forms
 
         private string username;
         private string password;
-        private LoginForm loginForm;
         public User user = new User();
         private DataTable dt = new DataTable();
         public ChangePassword(User user)
