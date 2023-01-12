@@ -51,11 +51,27 @@ namespace Smart_Home.forms
                     }
                 }
 
-                User user = new User(Convert.ToInt32(data[0]), data[1], data[2], data[3], data[4], Convert.ToInt32(data[5]), data[6]);
+                User user = new User(Convert.ToInt32(data[0]), data[1], data[2], data[3], data[4], Convert.ToInt32(data[5]), data[6], Convert.ToBoolean(data[7]));
+                if (user.Firstcon || user.Role == "TECHNICIEN")
+                {
+                    Dashboard dashboard = new Dashboard(user);
+                    dashboard.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    ChangePassword ch = new ChangePassword(user);
+                    ch.Show();
+                    this.Hide();
+                }
+                // Dashboard dashboard = new Dashboard(user);
+                //dashboard.Show();
+                //this.Hide();
 
-                Dashboard dashboard = new Dashboard(user);
-                dashboard.Show();
-                this.Hide();
+               
+
+
+
             }
             else
             {

@@ -197,6 +197,12 @@
     <Compile Include="forms\ChambreForm.Designer.cs">
       <DependentUpon>ChambreForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -284,6 +290,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="forms\ChambreForm.resx">
       <DependentUpon>ChambreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>

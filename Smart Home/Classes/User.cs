@@ -9,8 +9,9 @@
         private string password;
         private int age;
         private string role;
+        private bool firstcon;
 
-        public User(int id, string fullname, string telephone, string username, string password, int age, string role)
+        public User(int id, string fullname, string telephone, string username, string password, int age, string role, bool firstcon)
         {
             this.Id = id;
             this.Fullname = fullname;
@@ -19,6 +20,7 @@
             this.Password = password;
             this.Age = age;
             this.Role = role;
+            this.Firstcon = firstcon;
         }
 
         public User()
@@ -37,5 +39,6 @@
         public string Password { get => password; set => password = value; }
         public int Age { get => age; set => age = value; }
         public string Role { get => role; set => role = value; }
+        public bool Firstcon { get => firstcon; set => firstcon = value; }
     }
 }

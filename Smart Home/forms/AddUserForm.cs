@@ -28,13 +28,13 @@ namespace Smart_Home.forms
 
         private void AddUserButon_Click(object sender, EventArgs e)
         {
-            User user = new User(0, fullname.Text, telephone.Text, username.Text, password.Text, Convert.ToInt32(age.Text), role.SelectedItem.ToString());
+            User user = new User(0, fullname.Text, telephone.Text, username.Text, password.Text, Convert.ToInt32(age.Text), role.SelectedItem.ToString(),false);
             MyConnextion connextion = new MyConnextion();
             connextion.open();
             MySqlCommand cmd = connextion.getConnextion().CreateCommand();
 
-            cmd.CommandText = "INSERT INTO `user`(`id`, `fullname`, `telephone`, `username`, `password`, `age`, `role`) " +
-                "VALUES(@id, @fullname,@telephone,@username,@password,@age,@role)";
+            cmd.CommandText = "INSERT INTO `user`(`id`, `fullname`, `telephone`, `username`, `password`, `age`, `role`, `firstcon`) " +
+                "VALUES(@id, @fullname,@telephone,@username,@password,@age,@role,false)";
             cmd.Parameters.AddWithValue("@id", null);
             cmd.Parameters.AddWithValue("@fullname", user.Fullname);
             cmd.Parameters.AddWithValue("@telephone", user.Telephone);

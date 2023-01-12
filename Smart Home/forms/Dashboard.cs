@@ -408,6 +408,14 @@ namespace Smart_Home.forms
                 appartementService.allowTechnicien(false, this.appartement.Id);
             }
         }
+
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            LoginForm lf = new LoginForm();
+            lf.Show();
+            this.Hide();
+        }
     }
 }
 
